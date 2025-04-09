@@ -29,7 +29,7 @@ const Header = () => {
     { name: "Sobre", href: "#sobre" },
     { name: "Locação", href: "#locacao" },
     { name: "Produtos de Limpeza", href: "#produtos" },
-    { name: "Projetos", href: "#projetos" },
+    { name: "Nossos Serviços", href: "#projetos" },
     { name: "Contato", href: "#contato" },
   ];
 
@@ -44,13 +44,12 @@ const Header = () => {
       />
       
       <div className="flex items-center justify-between">
-        <a href="#home" className="text-2xl font-bold font-montserrat">
-          <span className={cn(
-            "transition-colors duration-300",
-            scrolled ? "text-company-blue" : "text-white"
-          )}>
-            de França
-          </span>
+        <a href="#home" className="flex items-center">
+          <img 
+            src="/lovable-uploads/df104ca7-9fb1-4bae-b6ca-3ec4d9f638b9.png" 
+            alt="De França" 
+            className="h-14 md:h-16"
+          />
         </a>
 
         <nav className="hidden md:flex items-center space-x-6">
@@ -72,9 +71,9 @@ const Header = () => {
           href={whatsappLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="cta-button flex items-center"
+          className="flex items-center bg-company-purple hover:bg-company-purple/90 text-white px-6 py-3 rounded-md transition-colors duration-300"
         >
-          <Phone size={18} className="mr-2 text-company-purple" />
+          <Phone size={18} className="mr-2 text-company-yellow" />
           Solicitar Orçamento
         </a>
       </div>

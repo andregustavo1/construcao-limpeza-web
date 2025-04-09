@@ -32,7 +32,7 @@ const LastCTA = () => {
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="cta-button inline-block text-lg px-8 py-4"
+            className="bg-company-purple hover:bg-company-purple/90 text-white font-montserrat font-bold px-8 py-4 rounded-md transition-colors duration-300 inline-block"
           >
             Solicitar Orçamento
           </a>

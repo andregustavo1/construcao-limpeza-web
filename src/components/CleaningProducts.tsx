@@ -10,28 +10,28 @@ const CleaningProducts = () => {
 
   const products = [
     {
-      title: "Limpeza Pós-Obra",
-      description: "Soluções especializadas para remoção de resíduos de construção, incluindo removedores de rejunte, cimento e tinta.",
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      benefits: ["Remoção eficiente de resíduos", "Não danifica superfícies", "Biodegradável"]
+      title: "Produtos Seven Clean",
+      description: "Soluções especializadas para limpeza profissional, incluindo sabonetes líquidos em diferentes fragrâncias.",
+      image: "/lovable-uploads/99b2648c-0f16-4ef5-9c67-485e22250fad.png",
+      benefits: ["Alta qualidade", "Produtos concentrados", "Opções variadas de fragrâncias"]
     },
     {
-      title: "Produtos Industriais",
+      title: "Linha Star",
       description: "Linha completa de produtos para limpeza industrial e manutenção de equipamentos pesados em ambientes de construção.",
-      image: "https://images.unsplash.com/photo-1604328698692-f76ea9498e76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      benefits: ["Alta performance", "Rendimento superior", "Uso econômico"]
+      image: "/lovable-uploads/6da1e389-121b-40d1-8f17-b86b1a91e57b.png",
+      benefits: ["Alta performance", "Rendimento superior", "Variedade de fragrâncias"]
     },
     {
-      title: "Limpeza de Fachadas",
-      description: "Produtos especializados para conservação e limpeza de fachadas de vidro, pedra, concreto e outros materiais.",
-      image: "https://images.unsplash.com/photo-1613618948931-efdc7e644d2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
-      benefits: ["Proteção prolongada", "Efeito anti-intemperismo", "Brilho duradouro"]
+      title: "Linha Milla",
+      description: "Produtos especializados para conservação e limpeza de ambientes, com várias opções de fragrâncias.",
+      image: "/lovable-uploads/447c0fb7-a958-4516-aa48-efd3a41f55e8.png",
+      benefits: ["Fragrâncias duradouras", "Fórmulas concentradas", "Opções para todos os ambientes"]
     },
     {
-      title: "Tratamento de Pisos",
-      description: "Impermeabilizantes, seladores e protetores para todos os tipos de pisos em ambientes comerciais e industriais.",
-      image: "https://images.unsplash.com/photo-1517581177682-a085bb7ffb38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80",
-      benefits: ["Resistência ao tráfego", "Proteção contra manchas", "Fácil manutenção"]
+      title: "Produtos Específicos",
+      description: "Produtos especializados como o limpa vidros, ideais para limpeza profissional de superfícies específicas.",
+      image: "/lovable-uploads/5d9e1b56-b70e-4fed-b8f5-5461ec3eebc0.png",
+      benefits: ["Ação rápida", "Não deixa resíduos", "Especialmente desenvolvido para vidros e superfícies"]
     }
   ];
 
@@ -85,7 +85,7 @@ const CleaningProducts = () => {
               <img 
                 src={products[activeIndex].image} 
                 alt={products[activeIndex].title} 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain p-4"
               />
             </div>
             <div className="md:col-span-3 p-6 md:p-8">
