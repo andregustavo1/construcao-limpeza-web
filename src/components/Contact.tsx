@@ -1,5 +1,5 @@
 
-import { useInView } from "react-intersection-observer";
+import { useInView } from "@/hooks/use-intersection-observer";
 import { Phone, Mail, MapPin, Instagram } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -7,7 +7,7 @@ const Contact = () => {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
 
   const contactInfo = {
-    phone: "[Número de Telefone]",
+    phone: "6530291415",
     email: "[Email da Empresa]",
     instagram: "[Instagram da Empresa]",
     location: "[Localização da Empresa]"

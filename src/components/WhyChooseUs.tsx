@@ -1,6 +1,6 @@
 
 import { useInView } from "react-intersection-observer";
-import { Tool, Truck, HeadsetMic, Package, Award } from "lucide-react";
+import { Settings, Truck, Headset, Package, Award } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const WhyChooseUs = () => {
@@ -8,7 +8,7 @@ const WhyChooseUs = () => {
 
   const reasons = [
     {
-      icon: Tool,
+      icon: Settings,
       title: "Equipamentos Modernos",
       description: "Nossa frota é constantemente atualizada e passa por rigorosas manutenções.",
     },
@@ -18,7 +18,7 @@ const WhyChooseUs = () => {
       description: "Contamos com logística eficiente para atender emergências e prazos ajustados.",
     },
     {
-      icon: HeadsetMic,
+      icon: Headset,
       title: "Suporte Técnico",
       description: "Equipe especializada disponível para assistência durante toda a locação.",
     },

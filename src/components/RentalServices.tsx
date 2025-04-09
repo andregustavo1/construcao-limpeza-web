@@ -1,5 +1,5 @@
 
-import { useInView } from "react-intersection-observer";
+import { useInView } from "@/hooks/use-intersection-observer";
 import { Truck, Hammer, Wrench, Building, Forklift, Cpu } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -87,7 +87,7 @@ const RentalServices = () => {
         
         <div className="mt-16 text-center">
           <a 
-            href={`https://wa.me/${"[Número de Telefone]".replace(/\D/g, '')}?text=Olá! Gostaria de solicitar um orçamento para locação de equipamentos.`}
+            href={`https://wa.me/6530291415?text=Olá! Gostaria de solicitar um orçamento para locação de equipamentos.`}
             target="_blank"
             rel="noopener noreferrer"
             className="cta-button inline-block"

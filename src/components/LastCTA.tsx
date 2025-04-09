@@ -1,11 +1,11 @@
 
-import { useInView } from "react-intersection-observer";
+import { useInView } from "@/hooks/use-intersection-observer";
 import { cn } from "@/lib/utils";
 
 const LastCTA = () => {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
   
-  const whatsappLink = `https://wa.me/${"[Número de Telefone]".replace(/\D/g, '')}?text=Olá! Gostaria de solicitar um orçamento para meu projeto.`;
+  const whatsappLink = `https://wa.me/${6530291415}?text=Olá! Gostaria de solicitar um orçamento para meu projeto.`;
 
   return (
     <section 
@@ -26,7 +26,7 @@ const LastCTA = () => {
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Pronto para Iniciar seu Projeto?</h2>
           <p className="text-xl mb-10 text-white/90">
-            Entre em contato e descubra como podemos otimizar sua obra
+            Entre em contato e descubra como a de França pode otimizar sua obra
           </p>
           <a 
             href={whatsappLink}

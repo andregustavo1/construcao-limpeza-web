@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { useInView } from "react-intersection-observer";
+import { useInView } from "@/hooks/use-intersection-observer";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -107,7 +107,7 @@ const CleaningProducts = () => {
               
               <div className="flex justify-end">
                 <a 
-                  href={`https://wa.me/${"[Número de Telefone]".replace(/\D/g, '')}?text=Olá! Gostaria de solicitar informações sobre ${products[activeIndex].title}.`}
+                  href={`https://wa.me/6530291415?text=Olá! Gostaria de solicitar informações sobre ${products[activeIndex].title}.`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="cta-button inline-block"
@@ -135,7 +135,7 @@ const CleaningProducts = () => {
         
         <div className="mt-16 text-center">
           <a 
-            href={`https://wa.me/${"[Número de Telefone]".replace(/\D/g, '')}?text=Olá! Gostaria de solicitar o catálogo completo de produtos de limpeza.`}
+            href={`https://wa.me/6530291415?text=Olá! Gostaria de solicitar o catálogo completo de produtos de limpeza.`}
             target="_blank"
             rel="noopener noreferrer"
             className="cta-button inline-block"

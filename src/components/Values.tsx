@@ -1,5 +1,5 @@
 
-import { useInView } from "react-intersection-observer";
+import { useInView } from "@/hooks/use-intersection-observer";
 import { Badge, Check, Shield, Leaf, Lightbulb, Eye, Clock } from "lucide-react";
 import { cn } from "@/lib/utils";
 

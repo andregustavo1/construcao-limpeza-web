@@ -1,6 +1,6 @@
 
 import { Check } from "lucide-react";
-import { useInView } from "react-intersection-observer";
+import { useInView } from "@/hooks/use-intersection-observer";
 import { cn } from "@/lib/utils";
 
 const About = () => {
