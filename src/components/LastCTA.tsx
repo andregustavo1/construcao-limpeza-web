@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 const LastCTA = () => {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
   
-  const whatsappLink = `https://wa.me/${6530291415}?text=Olá! Gostaria de solicitar um orçamento para meu projeto.`;
+  const whatsappLink = `https://wa.me/6530291415?text=Olá! Gostaria de solicitar um orçamento para meu projeto.`;
 
   return (
     <section 

@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 
 const Footer = () => {
   const contactInfo = {
-    phone: "[Número de Telefone]",
+    phone: "6530291415",
     email: "[Email da Empresa]",
     instagram: "[Instagram da Empresa]",
   };
@@ -34,7 +34,7 @@ const Footer = () => {
       <div className="container mx-auto py-12 px-4 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
-            <h3 className="text-2xl font-bold mb-6">[Nome da Empresa]</h3>
+            <h3 className="text-2xl font-bold mb-6">de França</h3>
             <p className="mb-6 text-white/80">
               Soluções integradas em locação de equipamentos para construção civil e venda de produtos de limpeza especializada.
             </p>
@@ -46,7 +46,7 @@ const Footer = () => {
                 className="bg-white/10 p-2 rounded-full hover:bg-white/20 transition-colors"
                 aria-label="WhatsApp"
               >
-                <Phone size={20} />
+                <Phone size={20} className="text-company-purple" />
               </a>
               <a 
                 href={emailLink}
@@ -55,7 +55,7 @@ const Footer = () => {
                 className="bg-white/10 p-2 rounded-full hover:bg-white/20 transition-colors"
                 aria-label="E-mail"
               >
-                <Mail size={20} />
+                <Mail size={20} className="text-company-purple" />
               </a>
               <a 
                 href={instagramLink}
@@ -64,7 +64,7 @@ const Footer = () => {
                 className="bg-white/10 p-2 rounded-full hover:bg-white/20 transition-colors"
                 aria-label="Instagram"
               >
-                <Instagram size={20} />
+                <Instagram size={20} className="text-company-purple" />
               </a>
             </div>
           </div>
@@ -89,15 +89,15 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-6">Contato</h3>
             <ul className="space-y-3">
               <li className="flex items-center">
-                <Phone size={16} className="mr-2 text-company-yellow" />
+                <Phone size={16} className="mr-2 text-company-purple" />
                 <span>{contactInfo.phone}</span>
               </li>
               <li className="flex items-center">
-                <Mail size={16} className="mr-2 text-company-yellow" />
+                <Mail size={16} className="mr-2 text-company-purple" />
                 <span>{contactInfo.email}</span>
               </li>
               <li className="flex items-center">
-                <Instagram size={16} className="mr-2 text-company-yellow" />
+                <Instagram size={16} className="mr-2 text-company-purple" />
                 <span>{contactInfo.instagram}</span>
               </li>
             </ul>
@@ -106,7 +106,7 @@ const Footer = () => {
         
         <div className="mt-12 pt-6 border-t border-white/20 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/80 mb-4 md:mb-0">
-            &copy; 2025 [Nome da Empresa]. Todos os direitos reservados.
+            &copy; 2025 de França. Todos os direitos reservados.
           </p>
           
           <button

@@ -7,7 +7,7 @@ const Header = () => {
   const [scrolled, setScrolled] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
   
-  const phoneNumber = "[Número de Telefone]";
+  const phoneNumber = "6530291415";
   const whatsappLink = `https://wa.me/${phoneNumber.replace(/\D/g, '')}?text=Olá! Gostaria de solicitar um orçamento.`;
 
   const handleScroll = () => {
@@ -49,7 +49,7 @@ const Header = () => {
             "transition-colors duration-300",
             scrolled ? "text-company-blue" : "text-white"
           )}>
-            [Nome da Empresa]
+            de França
           </span>
         </a>
 
@@ -59,7 +59,7 @@ const Header = () => {
               key={link.name}
               href={link.href}
               className={cn(
-                "nav-link text-sm font-medium transition-colors duration-300 hover:text-company-yellow",
+                "nav-link text-sm font-medium transition-colors duration-300 hover:text-company-purple",
                 scrolled ? "text-company-blue" : "text-white"
               )}
             >
@@ -74,7 +74,7 @@ const Header = () => {
           rel="noopener noreferrer"
           className="cta-button flex items-center"
         >
-          <Phone size={18} className="mr-2" />
+          <Phone size={18} className="mr-2 text-company-purple" />
           Solicitar Orçamento
         </a>
       </div>

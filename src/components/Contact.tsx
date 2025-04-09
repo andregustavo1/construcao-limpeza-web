@@ -46,7 +46,7 @@ const Contact = () => {
                   className="flex items-center group"
                 >
                   <div className="bg-company-blue/10 p-3 rounded-full mr-4 group-hover:bg-company-yellow/20 transition-colors">
-                    <Phone className="text-company-blue" size={24} />
+                    <Phone className="text-company-purple" size={24} />
                   </div>
                   <div>
                     <p className="text-sm text-gray-500">Telefone</p>
@@ -61,7 +61,7 @@ const Contact = () => {
                   className="flex items-center group"
                 >
                   <div className="bg-company-blue/10 p-3 rounded-full mr-4 group-hover:bg-company-yellow/20 transition-colors">
-                    <Mail className="text-company-blue" size={24} />
+                    <Mail className="text-company-purple" size={24} />
                   </div>
                   <div>
                     <p className="text-sm text-gray-500">E-mail</p>
@@ -76,7 +76,7 @@ const Contact = () => {
                   className="flex items-center group"
                 >
                   <div className="bg-company-blue/10 p-3 rounded-full mr-4 group-hover:bg-company-yellow/20 transition-colors">
-                    <Instagram className="text-company-blue" size={24} />
+                    <Instagram className="text-company-purple" size={24} />
                   </div>
                   <div>
                     <p className="text-sm text-gray-500">Instagram</p>
@@ -86,7 +86,7 @@ const Contact = () => {
                 
                 <div className="flex items-start">
                   <div className="bg-company-blue/10 p-3 rounded-full mr-4">
-                    <MapPin className="text-company-blue" size={24} />
+                    <MapPin className="text-company-purple" size={24} />
                   </div>
                   <div>
                     <p className="text-sm text-gray-500">Localização</p>
