@@ -46,7 +46,7 @@ const Footer = () => {
                 className="bg-white/10 p-2 rounded-full hover:bg-white/20 transition-colors"
                 aria-label="WhatsApp"
               >
-                <Phone size={20} className="text-company-purple" />
+                <Phone size={20} className="text-company-yellow" />
               </a>
               <a 
                 href={emailLink}
@@ -55,7 +55,7 @@ const Footer = () => {
                 className="bg-white/10 p-2 rounded-full hover:bg-white/20 transition-colors"
                 aria-label="E-mail"
               >
-                <Mail size={20} className="text-company-purple" />
+                <Mail size={20} className="text-company-yellow" />
               </a>
               <a 
                 href={instagramLink}
@@ -64,7 +64,7 @@ const Footer = () => {
                 className="bg-white/10 p-2 rounded-full hover:bg-white/20 transition-colors"
                 aria-label="Instagram"
               >
-                <Instagram size={20} className="text-company-purple" />
+                <Instagram size={20} className="text-company-yellow" />
               </a>
             </div>
           </div>
@@ -89,15 +89,15 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-6">Contato</h3>
             <ul className="space-y-3">
               <li className="flex items-center">
-                <Phone size={16} className="mr-2 text-company-purple" />
+                <Phone size={16} className="mr-2 text-company-yellow" />
                 <span>{contactInfo.phone}</span>
               </li>
               <li className="flex items-center">
-                <Mail size={16} className="mr-2 text-company-purple" />
+                <Mail size={16} className="mr-2 text-company-yellow" />
                 <span>{contactInfo.email}</span>
               </li>
               <li className="flex items-center">
-                <Instagram size={16} className="mr-2 text-company-purple" />
+                <Instagram size={16} className="mr-2 text-company-yellow" />
                 <span>{contactInfo.instagram}</span>
               </li>
             </ul>

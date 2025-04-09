@@ -64,7 +64,7 @@ const About = () => {
           >
             <div className="relative h-full min-h-[400px] rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1485083269755-a7b559a4fe5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" 
+                src="/lovable-uploads/925a416d-ba7e-4a6b-9936-2f30a9162f16.png" 
                 alt="Equipe de profissionais" 
                 className="w-full h-full object-cover"
               />

@@ -64,7 +64,7 @@ const WhyChooseUs = () => {
                 style={{ transitionDelay: `${delay}s` }}
               >
                 <div className="flex-shrink-0">
-                  <div className="bg-company-yellow/20 p-4 rounded-full">
+                  <div className="bg-company-purple/20 p-4 rounded-full">
                     <Icon className="text-company-blue" size={32} />
                   </div>
                 </div>

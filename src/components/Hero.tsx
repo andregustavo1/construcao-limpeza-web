@@ -2,14 +2,14 @@
 import { ArrowDown } from "lucide-react";
 
 const Hero = () => {
-  const whatsappLink = `https://wa.me/${"[Número de Telefone]".replace(/\D/g, '')}?text=Olá! Gostaria de conhecer seus serviços.`;
+  const whatsappLink = `https://wa.me/6530291415?text=Olá! Gostaria de conhecer seus serviços.`;
 
   return (
     <section 
       id="home" 
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80")`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/lovable-uploads/c6ef7225-d3f7-49d4-9e1b-4fe2a51c5829.png")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
